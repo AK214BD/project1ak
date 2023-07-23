@@ -63,3 +63,39 @@ color: #fefffd;
 letter-spacing: 5px;
 
 }
+.featured {
+    padding: 60px 80px;
+    text-align: center;
+    background-color: #312f2f;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.featured h3 {
+    font-weight: 100;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.featured span {
+    font-weight: 400;
+}
+
+
+.sample li {
+    text-decoration: none;
+    display: inline;
+    padding: 20px 30px 30px 0px;
+}
+
+.sample li a {
+    text-decoration: none;
+    color: #109136;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.sample li a:hover {
+    color: #eedc3a;
+    transition: color .7s ease;
+}
