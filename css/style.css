@@ -276,7 +276,7 @@ letter-spacing: 5px;
 
 /* education end */
 .about {
-    padding: 60px 80px;
+    padding: 100px 80px;
     display: flex;
     background-color: #312f2f;
     justify-content: space-between;
@@ -797,6 +797,7 @@ letter-spacing: 5px;
 .blg-col-1 i:hover{  
     color: #bac964; 
 }
+
 
 .blg-col-2 a{
     color: #adabab;

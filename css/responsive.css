@@ -37,24 +37,25 @@
         margin-top: 20px;
     }
     .about-row{
-        display: inline-flex;
+        display: flex;
+        flex-wrap: wrap;
     }
         .about-col1, .about-col2{
-        flex-basis: 40%;
+        flex-basis: 100%;
 
         }
         .about-col1 img{
-        width:300px;
+        width:600px;
         margin-bottom: 30px;
         }
         .about-col2 h3{
-            font-size: 25px;
+            font-size: 30px;
         }
         .about-col2 p{
             font-size: 15px;
         }
         .testimonial {
-            padding: 0px 50px 0px 50px;
+            padding: 0px 40px 0px 40px;
             margin: 0px 0px;
         }
         .testimonial h3{
@@ -64,7 +65,7 @@
             flex-wrap: wrap;
         }
         .testimonial-col1, .testimonial-col2, .testimonial-col3, .testimonial-col4{
-            flex-basis: 40%;
+            flex-basis: 48%;
             margin-top: 20px;
         }
         .testimonialmini-col2, .testimonialmini-col4, .testimonialmini-col6, .testimonialmini-col8{
@@ -77,10 +78,12 @@
             font-size: 25px;
         }
         .services-row{
-            flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
         }
         .service-col1, .service-col2, .service-col3{
-            flex-basis: 100%;
+            flex-basis: 30%;
             margin-top: 20px;
         }
         .blog{
@@ -89,10 +92,10 @@
         }
         .blog-row{
             flex-wrap: wrap;
-            padding: 0px 0px;
+            justify-content: space-around;
         }
         .blog-col-1, .blog-col-2, .blog-col-3{
-            flex-basis: 100%;
+            flex-basis: 40%;
     }
     .contact{
         padding: 20px 20px;
