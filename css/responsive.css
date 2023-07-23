@@ -51,4 +51,24 @@
         .about-col2 p{
             font-size: 15px;
         }
+        .testimonial {
+            padding: 0px 0px;
+            margin: 0px 0px;
+        }
+        .testimonial h3{
+            font-size: 25px;
+        }
+        .testimonial-row1, .testimonial-row2{
+            flex-wrap: wrap;
+        }
+        .testimonial-col1, .testimonial-col2, .testimonial-col3, .testimonial-col4{
+            flex-basis: 100%;
+            margin-top: 20px;
+        }
+        .testimonialmini-col2, .testimonialmini-col4, .testimonialmini-col6, .testimonialmini-col8{
+            font-size: 15px;
+        }
+        .testimonialmini-col2 blockquote{
+            font-size: 15px;
+        }
     }
