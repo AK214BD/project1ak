@@ -71,4 +71,14 @@
         .testimonialmini-col2 blockquote{
             font-size: 15px;
         }
+        .services h3{
+            font-size: 25px;
+        }
+        .services-row{
+            flex-wrap: wrap;
+        }
+        .service-col1, .service-col2, .service-col3{
+            flex-basis: 100%;
+            margin-top: 20px;
+        }
     }
