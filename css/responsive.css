@@ -1,0 +1,28 @@
+@media(min-width: 140px, max-width: 576px){
+    .banner-section{
+        padding:0px 0px;
+    }
+    .banner-content h1{
+        font-size: 20px;
+    }
+    .banner-content h2{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 20px;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .featured-col-1, .featured-col-2, .featured-col-3, .featured-col-4, .featured-col-5, .featured-col-6{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin-top: 30px;
+    }
+    .featured h3{
+        font-size: 30px;
+    }
+    .sample li a{
+        font-size: 20px;
+    }
+    }
