@@ -25,4 +25,15 @@
     .sample li a{
         font-size: 20px;
     }
+    .education h3{
+        font-size: 30px;
+    }
+    .edu-col3 h3, .edu-col4 h3{
+    font-size: 20px;
+    }
+    .edu-col1, .edu-col2, .edu-col5, .edu-col6, .edu-col7, .edu-col8{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
     }
