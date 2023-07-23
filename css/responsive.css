@@ -92,4 +92,25 @@
         .blog-col-1, .blog-col-2, .blog-col-3{
             flex-basis: 100%;
     }
+    .contact{
+        padding: 20px 20px;
+    }
+    .contact h3{
+        font-size: 25px;
+    }
+    .contact-row{
+        flex-wrap: wrap;
+        display: 100%;
+        padding:0px 0px;
+    }
+    .contact-col1, .contact-col2{
+        flex-basis: 100%;
+        margin-left: 0px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .contact form{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
 }
