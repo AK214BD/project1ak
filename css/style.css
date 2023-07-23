@@ -927,3 +927,35 @@ font-size: 12px;
     background-color: #a2aa75;
     color: #312f2f;
 }
+footer {
+    padding: 60px 200px;
+    background-color: #312f2f;
+    text-align: center;
+}
+
+footer span {
+    color: #bac964;
+}
+
+footer .foot {
+    color: red;
+}
+
+footer p {
+    color: #585858;
+    font-size: 20px;
+}
+
+.social-icon a {
+    background: #585858;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #bac964;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 50px 15px;
+}

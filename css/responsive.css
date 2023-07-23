@@ -113,4 +113,24 @@
     margin: 0px 0px;
     padding: 0px 0px;
 }
+footer{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+footer p{
+    font-size: 10px;
+}
+.social-icon a {
+    background: #585858;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #bac964;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px 10px 0px 10px;
+}
 }
