@@ -98,10 +98,10 @@
             flex-basis: 40%;
     }
     .contact{
-        padding: 20px 20px;
+        padding: 80px 20px;
     }
     .contact h3{
-        font-size: 25px;
+        font-size: 40px;
     }
     .contact-row{
         flex-wrap: wrap;
@@ -112,8 +112,9 @@
         flex-basis: 100%;
         margin-left: 0px;
         font-size: 15px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
+
     .contact form{
     margin: 0px 0px;
     padding: 0px 0px;
@@ -123,7 +124,8 @@ footer{
     padding: 0px 30px 60px 30px;
 }
 footer p{
-    font-size: 10px;
+    font-size: 22px;
+    opacity: 50%;
 }
 .social-icon a {
     background: #585858;
@@ -257,7 +259,7 @@ footer p{
 }
 footer{
     margin: 0px 0px;
-    padding: 0px 0px;
+    padding: 0px 30px 60px 30px;
 }
 footer p{
     font-size: 10px;
