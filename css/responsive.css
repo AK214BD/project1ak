@@ -107,13 +107,14 @@
     .contact-row{
         flex-wrap: wrap;
         display: 100%;
-        padding:0px 0px;
+        padding:0px 30px 0px 30px;
     }
     .contact-col1, .contact-col2{
         flex-basis: 100%;
         margin-left: 0px;
         font-size: 15px;
-        margin-top: 20px;
+        padding-top: 30px;
+    
     }
 
     .contact form{
@@ -123,7 +124,8 @@
 .contact-row{
 display: flex;
 justify-content: space-between;
-margin-top: 10px;}
+margin-top: 10px;
+}
 footer{
     margin: 0px 0px;
     padding: 0px 30px 60px 30px;
