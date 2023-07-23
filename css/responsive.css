@@ -1,4 +1,4 @@
-@media(min-width: 140px, max-width: 576px){
+@media(min-width: 140px){
     .banner-section{
         padding:0px 0px;
     }
@@ -36,4 +36,19 @@
         flex-wrap: wrap;
         margin-top: 20px;
     }
+    .about-row{
+        flex-wrap: wrap;
+        }
+        .about-col1 img{
+        width:200px;
+        flex-basis: 100%;
+        margin-bottom: 30px;
+        }
+        .about-col2 h3{
+            flex-basis: 100%;
+            font-size: 25px;
+        }
+        .about-col2 p{
+            font-size: 15px;
+        }
     }
